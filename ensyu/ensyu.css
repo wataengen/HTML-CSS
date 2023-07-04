@@ -1,0 +1,41 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  width: 100%; /* 横幅いっぱい */
+  height: 50px;
+  background-color: red; /* 背景色red */
+}
+.main-visual {
+  width: 100%; /* 横幅いっぱい */
+  height: 500px;
+  background-color: orange; /* 背景色orange */
+}
+.main {
+  width: 960px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.left-sidebar {
+  width: 230px;
+  background-color: palegreen; /* 背景色palegreen */
+}
+.blog {
+  width: 500px;
+  height: 1400px;
+  background-color: limegreen; /* 背景色limegreen */
+}
+
+.right-sidebar {
+  width: 230px;
+  background-color: palegreen; /* 背景色palegreen */
+}
+.footer {
+  width: 100%; /* 横幅いっぱい */
+  height: 100px;
+  background-color: blue; /* 背景色blue */
+}
